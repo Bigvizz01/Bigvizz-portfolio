@@ -866,3 +866,44 @@ footer p {
   }
 
 }
+/* SKILLS FLEXBOX LAYOUT */
+
+.skills-container {
+
+  display: flex;
+
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  gap: 25px;
+
+  margin-top: 40px;
+
+}
+
+.skill-card {
+
+  flex: 1 1 220px;
+
+  max-width: 250px;
+
+  padding: 25px;
+
+  text-align: center;
+
+  background: #0f172a;
+
+  border: 1px solid #22c55e;
+
+  border-radius: 12px;
+
+  transition: transform 0.3s ease;
+
+}
+
+.skill-card:hover {
+
+  transform: translateY(-8px);
+
+}
