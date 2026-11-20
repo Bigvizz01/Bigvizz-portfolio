@@ -547,36 +547,57 @@ nav h2 {
   /* MOBILE RESPONSIVENESS */
 
 @media (max-width: 768px) {
+nav {
 
-  nav {
+  display: flex;
 
-    flex-direction: column;
+  flex-direction: row;
 
-    gap: 15px;
+  justify-content: space-between;
 
-    padding: 20px;
+  align-items: center;
 
-  }
+  flex-wrap: wrap;
 
-  nav ul {
+  gap: 15px;
 
-    display: flex;
+  padding: 20px;
 
-    flex-wrap: wrap;
+}
 
-    justify-content: center;
+nav ul {
 
-    gap: 15px;
+  display: none !important;
 
-    padding: 0;
+  flex-direction: column;
 
-  }
+  width: 100%;
 
-  nav ul li {
+  align-items: center;
 
-    margin: 0;
+  gap: 15px;
 
-  }
+  padding: 20px 0;
+
+}
+
+nav ul.active {
+
+  display: flex !important;
+
+}
+
+.menu-toggle {
+
+  display: block !important;
+
+}
+
+nav ul li {
+
+  margin: 0;
+
+}
 
   #home h1 {
 
