@@ -799,3 +799,32 @@ footer p {
   }
 
 }
+/* FIX MOBILE NAVIGATION */
+
+@media (max-width: 768px) {
+
+  nav ul {
+
+    display: none !important;
+
+  }
+
+  nav ul.active {
+
+    display: flex !important;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 20px;
+
+  }
+
+  .menu-toggle {
+
+    display: block !important;
+
+  }
+
+}
