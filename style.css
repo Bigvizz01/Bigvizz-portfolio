@@ -873,3 +873,50 @@ footer p {
   }
 
 }
+/* DEFINITIVE MOBILE NAVIGATION FIX */
+
+@media screen and (max-width: 768px) {
+
+  nav {
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+  }
+
+  nav .menu-toggle {
+
+    display: block;
+
+  }
+
+  nav ul#nav-links {
+
+    display: none !important;
+
+    flex-direction: column;
+
+    width: 100%;
+
+    padding: 20px 0;
+
+    margin: 0;
+
+    background: #0f172a;
+
+  }
+
+  nav ul#nav-links.active {
+
+    display: flex !important;
+
+  }
+
+}
