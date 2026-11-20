@@ -1,9 +1,17 @@
-const menuToggle = document.getElementById("menu-toggle");
+document.addEventListener("DOMContentLoaded", function () {
 
-const navLinks = document.getElementById("nav-links");
+  const menuToggle = document.getElementById("menu-toggle");
 
-menuToggle.addEventListener("click", function() {
+  const navLinks = document.getElementById("nav-links");
 
-  navLinks.classList.toggle("active");
+  if (menuToggle && navLinks) {
+
+    menuToggle.addEventListener("click", function () {
+
+      navLinks.classList.toggle("active");
+
+    });
+
+  }
 
 });
