@@ -843,3 +843,26 @@ footer p {
   }
 
 }
+/* TABLET AND DESKTOP RESPONSIVENESS */
+
+@media (min-width: 769px) {
+
+  #about {
+
+    max-width: 1000px;
+
+    margin: auto;
+
+    padding: 80px 40px;
+
+  }
+
+  #about p {
+
+    font-size: 18px;
+
+    line-height: 1.8;
+
+  }
+
+}
