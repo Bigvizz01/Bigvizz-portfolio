@@ -268,27 +268,35 @@ nav h2 {
 
 .skills-container {
 
-    display: grid;
+  display: flex;
 
-    grid-template-columns: 1fr;
+  justify-content: center;
 
-    gap: 20px;
+  flex-wrap: wrap;
 
-    max-width: 600px;
+  gap: 25px;
 
-    margin: 40px auto;
+  margin: 40px auto;
 
 }
 
 .skill-card {
 
-    background: #1e293b;
+  flex: 1 1 220px;
 
-    padding: 30px;
+  max-width: 250px;
 
-    border: 1px solid #22c55e;
+  background: #1e293b;
 
-    border-radius: 15px;
+  padding: 30px;
+
+  border: 1px solid #22c55e;
+
+  border-radius: 15px;
+
+  text-align: center;
+
+  transition: transform 0.3s ease;
 
 }
 
@@ -303,6 +311,11 @@ nav h2 {
     color: #cbd5e1;
 
     line-height: 1.6;
+
+}
+.skill-card:hover {
+
+  transform: translateY(-8px);
 
 }
 /* EXPERIENCE SECTION */
