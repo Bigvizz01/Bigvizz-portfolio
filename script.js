@@ -1,17 +1,25 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", () => {
 
-  const menuToggle = document.getElementById("menu-toggle");
+  const button = document.querySelector("#menu-toggle");
 
-  const navLinks = document.getElementById("nav-links");
+  const menu = document.querySelector("#nav-links");
 
-  if (menuToggle && navLinks) {
+  console.log("Menu script loaded:", button, menu);
 
-    menuToggle.addEventListener("click", function () {
+  if (!button || !menu) {
 
-      navLinks.classList.toggle("active");
+    console.error("Menu button or navigation menu not found!");
 
-    });
+    return;
 
   }
+
+  button.addEventListener("click", () => {
+
+    menu.classList.toggle("active");
+
+    console.log("Menu clicked!");
+
+  });
 
 });
