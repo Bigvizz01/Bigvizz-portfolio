@@ -822,3 +822,24 @@ footer p {
   }
 
 }
+/* RESPONSIVE HOME SECTION */
+
+@media (max-width: 768px) {
+
+  #home h1 {
+
+    font-size: 30px;
+
+    text-align: center;
+
+  }
+
+  #home p {
+
+    font-size: 15px;
+
+    line-height: 1.6;
+
+  }
+
+}
