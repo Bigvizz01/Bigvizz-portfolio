@@ -21,5 +21,17 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log("Menu clicked!");
 
   });
+const contactButton = document.querySelector("#home .btn-outline");
 
+if (contactButton) {
+
+  contactButton.addEventListener("click", (event) => {
+
+    event.preventDefault();
+
+    alert("Welcome to Big Vizz's Portfolio!");
+
+  });
+
+}
 });
