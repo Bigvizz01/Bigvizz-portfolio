@@ -1029,3 +1029,24 @@ footer p {
   }
 
 }
+/* DARK/LIGHT MODE BUTTON */
+
+.theme-toggle {
+
+  background: transparent;
+
+  border: 2px solid #22c55e;
+
+  color: white;
+
+  font-size: 20px;
+
+  padding: 6px 10px;
+
+  border-radius: 50%;
+
+  cursor: pointer;
+
+  margin-left: 10px;
+
+}
