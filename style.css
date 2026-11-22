@@ -507,6 +507,7 @@ animation: fadeIn 1.5s ease forwards;
     border: 4px solid #22c55e;
 
     box-shadow: 0 0 25px #22c55e;
+    animation: backgroundGlow 3s ease-in-out infinite;
   /* BIG VIZZ BRANDING */
 
 #home h1 {
