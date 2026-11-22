@@ -1050,3 +1050,48 @@ footer p {
   margin-left: 10px;
 
 }
+/* LIGHT MODE */
+
+body.light-mode {
+
+  background: #f8fafc;
+
+  color: #0f172a;
+
+}
+
+body.light-mode nav {
+
+  background: #e2e8f0;
+
+}
+
+body.light-mode h1,
+
+body.light-mode h2,
+
+body.light-mode h3 {
+
+  color: #0f172a;
+
+}
+
+body.light-mode p {
+
+  color: #334155;
+
+}
+
+body.light-mode .skill-card {
+
+  background: #ffffff;
+
+  border-color: #22c55e;
+
+}
+
+body.light-mode .theme-toggle {
+
+  color: #0f172a;
+
+}
