@@ -31,5 +31,17 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
   }
+// CHANGE HOME HEADING
 
+const heading = document.querySelector("#home h1");
+
+if (heading) {
+
+  heading.addEventListener("click", () => {
+
+    heading.textContent = "Welcome to Big Vizz!";
+
+  });
+
+}
 });
