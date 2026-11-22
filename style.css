@@ -1096,3 +1096,30 @@ body.light-mode .theme-toggle {
   color: #0f172a;
 
 }
+/* LIGHT MODE - JOURNEY AND EXPERIENCE CARDS */
+
+body.light-mode .about-card,
+
+body.light-mode .experience-card {
+
+    background: #ffffff;
+
+    color: #0f172a;
+
+}
+
+body.light-mode .about-card h3,
+
+body.light-mode .experience-card h3 {
+
+    color: #0f172a;
+
+}
+
+body.light-mode .about-card p,
+
+body.light-mode .experience-card p {
+
+    color: #334155;
+
+}
