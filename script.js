@@ -44,4 +44,27 @@ if (heading) {
   });
 
 }
+  // DARK/LIGHT MODE TOGGLE
+
+const themeButton = document.querySelector("#theme-toggle");
+
+if (themeButton) {
+
+  themeButton.addEventListener("click", () => {
+
+    document.body.classList.toggle("light-mode");
+
+    if (document.body.classList.contains("light-mode")) {
+
+      themeButton.textContent = "☀️";
+
+    } else {
+
+      themeButton.textContent = "🌙";
+
+    }
+
+  });
+
+}
 });
