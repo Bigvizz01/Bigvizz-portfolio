@@ -1,37 +1,35 @@
 document.addEventListener("DOMContentLoaded", () => {
 
+  // HAMBURGER MENU
+
   const button = document.querySelector("#menu-toggle");
 
   const menu = document.querySelector("#nav-links");
 
-  console.log("Menu script loaded:", button, menu);
+  if (button && menu) {
 
-  if (!button || !menu) {
+    button.addEventListener("click", () => {
 
-    console.error("Menu button or navigation menu not found!");
+      menu.classList.toggle("active");
 
-    return;
+    });
 
   }
 
-  button.addEventListener("click", () => {
+  // CONTACT BUTTON
 
-    menu.classList.toggle("active");
+  const contactButton = document.querySelector("#home .btn-outline");
 
-    console.log("Menu clicked!");
+  if (contactButton) {
 
-  });
-const contactButton = document.querySelector("#home .btn-outline");
+    contactButton.addEventListener("click", (event) => {
 
-if (contactButton) {
+      event.preventDefault();
 
-  contactButton.addEventListener("click", (event) => {
+      alert("Welcome to Big Vizz's Portfolio!");
 
-    event.preventDefault();
+    });
 
-    alert("Welcome to Big Vizz's Portfolio!");
+  }
 
-  });
-
-}
 });
